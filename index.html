@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width-device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Staatliches">
+      <script src="script.js" defer></script>
+      <title>Tic Tac Toe</title>
+      <link rel="icon" type="images/x-icon" href="sprites/title_image.png">
+  </head>
+
+  <body>
+    <header class="fixedPosition">
+
+      <!-- Very cool header -->
+      <div class="separationBlockHeader">
+        <h1 class="pageHeader">Tic Tac Toe</h1>
+      </div>
+    </header>
+
+    <section>
+      <div class="separationBlockMed"></div>
+      
+
+      <!-- Separate block for the win screen -->
+      <div class="separationBlockMed" id="blockBorder">
+        <div class="winScreen" id="winningMessage">
+          <div data-winning-message-text></div>
+          <button id="resetButton">Reset</button>
+        </div>
+      </div>
+      <div class="separationBlockSmall"></div>
+
+      <!-- Setting up the board -->
+      <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+      </div>
+
+        <p class="headerDescription">
+          Instructions below.
+        </p>
+      </div>
+      <div class="separationBlockSmall"></div>
+
+      
+
+      <!-- Instructions list -->
+      <div class="instructionBlock">
+        <h3 class="instructionTitle">Instructions</h3>
+        <hr class="hrColour">
+        <p class="instructionDescription">
+          Click on a box to start the game.
+          <br><br>
+          Player 1 is X, Player 2 is O.
+        </p>
+      </div>
+
+      <div class="separationBlockLarge"></div>
+    </section>
+    <hr class="hrColour">
+    <footer>
+      <h4 class="footerText">
+        Made by: Anthony Ross<br>
+        Completed on: November 3rd, 2023
+      </h4>
+    </footer>
+  </body>
+
+</html>
+
+<!-- 
+
+The Tic Tac Toe code is not from me, you can get
+both the code and the extra info from this video
+by Web Dev Simplified.
+
+https://youtu.be/Y-GkMjUZsmM?si=toL7TRFKtzog7XWK
+
+If I built the game from scratch it would have
+never been completed in time. But, I also thought
+it would be fun to put on the website and give me
+a little bit more experience with javascript.
+
+I still think I'll try to make an idle game in my
+free time though, since I don't have to worry
+about any deadlines and can learn at my own pace.
+
+-->
