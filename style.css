@@ -149,7 +149,7 @@ header {
 .instructionBlock {
 	margin:auto;
 	width:25%;
-	height:25%%;
+	height:25%;
 	text-align:center;
 	color:var(--main-colour);
 	border: 3px solid var(--main-colour);
